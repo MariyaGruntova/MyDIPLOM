@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c4b36cc-45a8-4557-8213-237b652f8bd5">
+  <producedTypes>
+    <objectType typeId="8bbc104b-ee72-4c72-a242-dc8f6c3ec336" valueTypeId="a7a19bc5-4c9b-41a7-91bf-3014f431f885"/>
+    <managerType typeId="ec6879e3-ead7-4b52-870e-0cf2c994f5e6" valueTypeId="ce9f0e10-2176-4dee-a804-d3bc5f8cb9c5"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </extendedPresentation>
+  <attributes uuid="d22daee2-58e2-4ca7-9a6e-fb4b59535ccf">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3792e4fc-cceb-4ab5-916e-9fe9e0b0f56b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

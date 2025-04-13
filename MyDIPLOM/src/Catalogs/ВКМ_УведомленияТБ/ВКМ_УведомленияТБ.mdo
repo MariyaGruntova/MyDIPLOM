@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8b6b175-bd9e-402e-94c3-6e76b3619e50">
+  <producedTypes>
+    <objectType typeId="9b1fb114-95ac-4606-9289-71abd20bdf06" valueTypeId="cdd1345d-0b2f-4d5a-8269-e321997b5b42"/>
+    <refType typeId="91e55bf3-84ed-4a1d-9ad1-c09061bc5290" valueTypeId="270fa318-f6aa-4e85-8550-791e2c763ad1"/>
+    <selectionType typeId="20a53a5f-7d40-44a6-9585-a8a5a7439ae3" valueTypeId="ae7ec6cb-7f95-4dcd-a099-48377bfc6560"/>
+    <listType typeId="3c32fc86-40f3-421f-ab93-4878149b17d1" valueTypeId="1f688b24-be62-42d9-867e-08320a5ea5ea"/>
+    <managerType typeId="00e459cd-36fc-4ced-9e0f-14df9370606d" valueTypeId="df828818-3881-4a8c-ad23-377e087aadc8"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления ТБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_УведомленияТБ.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_УведомленияТБ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомления ТБ</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_УведомленияТБ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВКМ_УведомленияТБ.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d7153490-0388-41d2-aba2-d28b2cf928ab">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="368cfa09-d1fa-4c4c-b85e-24b93576495c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87daf897-4afd-482b-9137-e04012d6e804">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
